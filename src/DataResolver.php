@@ -11,7 +11,7 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 readonly class DataResolver
 {
     const string USER_AGENT = 'https://github.com/vuryss/everybody-codes-php by vuryss@gmail.com';
-    const string VERSION = '6';
+    const string VERSION = '1731866784079';
 
     public function __construct(
         #[Autowire('%kernel.project_dir%')]
